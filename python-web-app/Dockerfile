@@ -14,3 +14,4 @@ RUN python3 -m venv venv1 && source venv1/bin/activate && pip install --no-cache
 EXPOSE 8080
 
 CMD ["venv1/bin/python", "manage.py", "runserver", "0.0.0.0:8000"]
+

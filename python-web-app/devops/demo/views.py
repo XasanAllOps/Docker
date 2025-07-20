@@ -1,4 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 
-def index(request):
-  return render(request, 'demo_site.html')
+
+def demo(request):
+    content = """
+    <h1>Likega ku dhufo iyo Subababa Iscriba</h1>
+
+    """
+    return HttpResponse(content)
