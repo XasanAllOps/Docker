@@ -16,8 +16,6 @@
 # CMD CMD source venv1/bin/activate && python3 manage.py runserver 0.0.0.0:8000
 
 
-
-
 FROM ubuntu
 
 WORKDIR /app
@@ -33,5 +31,5 @@ RUN python3 -m venv venv1 && source venv1/bin/activate && pip install --no-cache
 
 EXPOSE 8080
 
-CMD CMD source venv1/bin/activate && python3 manage.py runserver 0.0.0.0:8000
+CMD source venv1/bin/activate && python3 manage.py runserver 0.0.0.0:8000
 
