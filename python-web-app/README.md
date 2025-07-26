@@ -58,7 +58,7 @@
 ┌────────────────────────────────────┐
 │         Your Host Machine          │
 │                                    │
-│ 1. Docker build . -t test-app      │
+│    Docker build . -t test-app      │
 │ ┌───────────────────────────────┐  │
 │ │  Dockerfile Instructions      │  │
 │ │-----------------------------  │  │
