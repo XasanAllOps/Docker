@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir --prefix=/install -r requirements.txt
 # why use /install? In order to isolate all Python packages in one folder to copy later.
 
 
-# --- Stage 2: Create a lightweight runtime image 🚀
+# --- Stage 2: Create final runtime image 🚀
 # --- Lightweight, production-ready container with application + installed packages
 
 
