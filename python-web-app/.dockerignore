@@ -1,0 +1,8 @@
+# --- MacOS system file
+.DS_Store
+
+# --- Ignore Python cache
+__pycache__/
+**/__pycache__/
+
+
