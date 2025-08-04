@@ -1,3 +1,0 @@
-http://localhost {
-    reverse_proxy url-short-app:5000
-}
